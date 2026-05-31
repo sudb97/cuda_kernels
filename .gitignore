@@ -1,0 +1,22 @@
+# Compiled binaries (no extension, named after source)
+1d_vector_add/vector_add_cpu_gpu
+2d_vector_add/2d_vector_add
+fundametal_kernels/indexing
+fundametal_kernels/indexing_cu
+fundametal_kernels/increment_matrix_elements/increment_matrix_by_one
+GEMM/mat_mul
+GEMM/mat_mul_v2
+GEMM/mat_mul_v3
+matrix_copy/matrix_copy
+matrix_transpose/two_d_matrix_transpose
+matrix_transpose/two_d_matrix_transpose_v2
+
+# Nsight Compute reports
+*.ncu-rep
+
+# General CUDA/C++ build artifacts
+*.o
+*.obj
+*.ptx
+*.cubin
+*.fatbin
